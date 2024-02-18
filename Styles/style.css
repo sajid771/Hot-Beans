@@ -1,0 +1,167 @@
+.Container-1{
+    display: grid;
+    width: 100%;
+    height: 1500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+     "header header header header header header"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "footer footer footer footer footer footer"
+}
+.Container-1 > *{
+    border: 2px;
+}
+.header{
+    grid-area: header;
+   text-align: center;
+   background: url("../Assets/binary.webp");
+}
+.Container-2{
+    display: grid;
+    width: 100%;
+    height: 1500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+     "header header header header header header"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "footer footer footer footer footer footer"
+}
+.Container-2 > *{
+    border: 2px;
+}
+.Container-3{
+    display: grid;
+    width: 100%;
+    height: 1500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+     "header header header header header header"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "Content Content Content Content Content Content"
+     "footer footer footer footer footer footer"
+}
+.Container-3 > *{
+    border: 2px;
+}
+.Container-4{
+    
+}
+.Container-4 > *{
+    
+}
+.Container-5{
+    
+}
+.header{
+    grid-area: header;
+   text-align: center;
+   background: url("../Assets/binary.webp");
+   height: 400px;
+ 
+}
+
+.Content{
+    background-color: lightgray;
+}
+
+ul{
+    
+    background: rgba(0,0,0,0.5);
+}
+li{
+    display: inline;
+    padding: 0px 60px 0px 10px;
+}
+a{
+    color:white;
+}
+h1{
+    font-size: 80px;
+    color: white;
+}
+img{
+    margin: 50px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;    
+}
+logo{
+    width: 250px;
+    height: 150px;
+}
+.socials{
+     height: 50px;
+    width: 50px;
+    
+}
+article{
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+@media(max-width:500px)
+{
+    body{
+        background:red;
+    }
+    h1{
+        font-size: 36px;
+        color:blue;
+    }
+    li{
+        
+    display:block;
+    padding: 5px;
+    }
+    ul{
+        padding: 10px;
+        background: rgba(25,0,100,00.5);
+    }
+}
+.footer{
+    grid-area: footer;
+    text-align: right;
+    background-image: url(../Assets/footer-background.jpg) ;
+    background-color: lightgray;
+    
+    
+}
+label{
+    grid-area: footer;
+    color: black;
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+input{
+    margin: 40px 0px 0px 0px;
+    border-relative: 10px;
+  
+}
+button{
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.w3-input{
+    text-align: center;
+}
+.label{
+    text-align: left;
+}
+.Content{
+    grid-area: Content;
+    text-align: center;
+}
