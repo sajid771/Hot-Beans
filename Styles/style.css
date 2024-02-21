@@ -165,3 +165,14 @@ p{
     grid-area: Content;
     text-align: center;
 }
+body{
+                
+ font-family: helvetica, sans-serif;
+ margin: 0 auto;
+}   
+.footer-4{
+    grid-area: footer;
+    text-align: right;
+    background-image: url(../Assets/footer-background.jpg) ;
+  height: 265px;
+}
