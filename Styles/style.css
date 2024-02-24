@@ -55,10 +55,12 @@
     border: 2px;
 }
 .Container-4{
+   
+       
     
 }
 .Container-4 > *{
-    
+   border: 10px;
 }
 .Container-5{
     
@@ -73,7 +75,17 @@
 
 .Content{
     background-color: lightgray;
+    
+      
+   
 }
+.Content-1
+
+    
+  
+ 
+
+
 
 ul{
     
@@ -132,7 +144,7 @@ article{
     grid-area: footer;
     text-align: right;
     background-image: url(../Assets/footer-background.jpg) ;
-    background-color: lightgray;
+    
     
     
 }
@@ -159,7 +171,7 @@ p{
     text-align: center;
 }
 .label{
-    text-align: left;
+    text-align: center;
 }
 .Content{
     grid-area: Content;
